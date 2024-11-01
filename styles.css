@@ -1,0 +1,6 @@
+.body{background-color: rgb(221, 152, 92);}
+.headings{font-family: arial;}
+.input_and_button_boxes{text-align: center; height: auto; vertical-align: middle; background-color: rgb(150, 172, 165); padding: 1em;}
+.inputBox{width: 350px; text-align: center; padding: 1em; font-size: medium;}
+.buttonBox{text-align: center; padding: 1em; text-decoration: solid; background-color: rgb(138, 141, 168); font-size: larger; border-radius: 2.5%;}
+.outputBox{text-align: center; font-family: Arial; text-decoration: solid; font-size: larger;}
