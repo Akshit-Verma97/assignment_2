@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Reverse | Palindrome Check | Tip Calc</title>
+    <link rel="stylesheet" href="assignment2_css.css">
+    <script src="assignment2_js.js"></script>
+</head>
+<body>
+    <br>
+    <header style="text-align: center; font-family: Arial; font-size: medium;">Assignment 2 tasks</header>
+    <h1 style="text-align: center; font-family: Arial; color: rgb(3, 3, 108);">String Reverser, Palindrome Checker, and Tip-Calculator</h1>
+    <br>
+    <div class="input_and_button_boxes">
+        <h2  class="headings">String Reverse tool</h1>
+        <input type="text" class="inputBox" id="inputStr" placeholder="Please enter a text to reverse"><br><br>
+        <button onclick="stringReverse()" class="buttonBox">Click to display reverse string</button>
+        <p id="outputRevStr" class="outputBox"></p>
+    </div>
+    <hr>
+    <br>
+    <div class="input_and_button_boxes">
+        <h2 class="headings">Palindrome Check tool</h1>
+        <input type="number" class="inputBox" id="inputNumber" placeholder="Please enter a number to check palindrome"><br><br>
+        <button onclick="palindromeCheck()" class="buttonBox">Click to check Palindrome or not</button>
+        <p id="outputPalindrome" class="outputBox"></p>
+    </div>
+    <hr>
+    <br>
+    <div class="input_and_button_boxes">
+        <h2 class="headings">Tip Calculator tool</h1>
+        <input type="number" class="inputBox" id="inputBill" placeholder="Please enter subtotal bill">
+        <input type="number" class="inputBox" id="inputTip" placeholder="Please enter tip percentage as a number"><br><br>
+        <button onclick="tipCalc()" class="buttonBox">Click to show total bill to pay</button>
+        <p id="totalBill" class="outputBox"></p>
+    </div>
+    <br>
+    <footer style="font-family: Arial; text-align: center;"> &#169; Made By Akshit Verma for Assignment 2 Web Systems Development</footer>
+
+</body>
+</html>
